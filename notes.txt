@@ -1,0 +1,36 @@
+e of type T
+e: T
+
+Quotation
+'{e} -> Expr[T]
+Type.of[T]
+
+Splicing
+e: Expr[T]
+${e} -> code: T
+
+Quotation <-> Splicing
+
+Quoted expression
+Expr[T]
+
+Type[T], Type.of[T] ?
+if Expr[T] then
+    Type.of[T] is provided
+
+Term
+Expr[T].asTerm -> Term
+Expr is high level
+Term is low level
+(like New, Block, etc.)
+isExpr
+
+Symbol
+each definition like:
+variable, method, type
+information about the underlying definition
+useful to create new method or variable in the macro
+
+
+
+
