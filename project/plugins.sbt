@@ -1,2 +1,2 @@
-addSbtPlugin("ch.epfl.scala" % "sbt-bloop" % "2.0.0")
+addSbtPlugin("ch.epfl.scala" % "sbt-bloop" % "2.0.3")
 
